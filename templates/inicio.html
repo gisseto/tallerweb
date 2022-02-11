@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>mi primera pagina web</title> <!--este es el titulo-->
+        <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+
+    </head>
+    <body>
+<!--crear un titulo con el siguiente texto:hola mundo en h1-->
+<h1>
+    hola mundo
+</h1>
+
+<a href="{{url_for('inicio')}}"> inicio </a>
+<a href="{{url_for('contacto')}}"> contacto </a>
+<!--challenge: crear un titulo h2 con el texto
+mi nombre es
+crear un titulo h3 con el texto
+y estoy en penguin porque...-->
+<h2>
+    mi nombre es Gisselle Lorena Torres
+</h2>
+<h3>
+    y yo estoy aqui porque quiero aprender a realizar un sitio web para divulgacion cientifica
+</h3>
+    <img src="static/perrito con lente.jpg" alt="perrito con lentes" width="600" height="700">
+    </body>
+</html>
